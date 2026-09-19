@@ -12,7 +12,6 @@ env:
   # Render API endpoint for the deploys of our service (srv-... = service ID)
   DEPLOYS_API: https://api.render.com/v1/server/services/srv-dan9vpid0e5s73e31tgg/deploys
 
-
 jobs:
   # JOB 1 (CI): run the image and make a real prediction
   test:
